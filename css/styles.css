@@ -103,7 +103,7 @@ a:hover{
 }
 .copy{
   color: #8B0000;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   padding: 20px 0px;
 }
 .cme {
@@ -142,6 +142,16 @@ a:hover{
    background-image: -webkit-gradient(to bottom, #4D1ED0, #54F63D);
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
-   border-radius: 20px;
+   border-radius: 10px;
    text-decoration: none;
+}
+.bottom-cloud {
+  position: relative;
+  right: 200px;
+  top: 20px;
+}
+.mid-cloud {
+  position: absolute;
+  right: 100px;
+  top: 50px;
 }
